@@ -4,166 +4,193 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin Dashboard | The Odin Project</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <nav>
+        <nav class="side-menu">
             <a href="#" class="logo">
-                <img src="" alt="">
+                <span class="material-icons"> dashboard </span>
                 <span>Dashboard</span>
             </a>
             <ul class="menu">
-                <li><img src="" alt=""><a href="#">Home</a></li>
-                <li><img src="" alt=""><a href="#">Profile</a></li>
-                <li><img src="" alt=""><a href="#">Messages</a></li>
-                <li><img src="" alt=""><a href="#">History</a></li>
-                <li><img src="" alt=""><a href="#">Tasks</a></li>
-                <li><img src="" alt=""><a href="#">Communities</a></li>
-            </ul>
-            <ul class="menu">
-                <li><img src="" alt=""><a href="#">Settings</a></li>
-                <li><img src="" alt=""><a href="#">Support</a></li>
-                <li><img src="" alt=""><a href="#">Privacy</a></li>
-            </ul>
+                <li>
+                  <a href="#"><span class="material-icons"> home </span> <span>Home</span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="material-icons-outlined"> account_circle </span>
+                    <span>Profile</span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="material-icons-outlined"> message </span> <span>Messages</span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="material-icons-outlined"> history </span> <span>History</span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="material-icons-outlined"> task </span> <span>Tasks</span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="material-icons-outlined"> groups </span>
+                    <span>Communities</span></a>
+                </li>
+              </ul>
+              <ul class="menu">
+                <li>
+                  <a href="#"><span class="material-icons-outlined"> settings </span> <span>Settings</span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="material-icons-outlined"> help_center </span>
+                    <span>Support</span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="material-icons-outlined"> verified_user </span>
+                    <span>Privacy</span></a>
+                </li>
+              </ul>
         </nav>
-        <header>
+        <header class="main-header">
             <div class="top-header">
                 <div>
-                    <img src="" alt="">
-                    <input type="text">
+                    <span class="material-icons-outlined">
+                        search
+                    </span>
+                    <input type="text" class="search-bar">
                 </div>
                 <div>
-                    <img src="" alt="" class="notification">
-                    <img src="" alt="" class="avatar">
+                    <span class="material-icons-outlined notification"> notifications_active </span>
+                    <img src="img/avatar.png" alt="" class="avatar">
                     <span class="name">Morgan Oakley</span>
                 </div>
             </div>
             <div class="bottom-header">
                 <div>
-                    <img src="" alt="">
+                    <img src="img/avatar.png" alt="" class="avatar">
                     <div>
-                        <span>Hi there,</span>
-                        <span class="name">Morgan Oakley (@morgan)</span>
+                        <div>Hi there,</div>
+                        <div class="name">Morgan Oakley (@morgan)</div>
                     </div>
                 </div>
                 <div>
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
+                    <button class="button">New</button>
+                    <button class="button">Upload</button>
+                    <button class="button">Share</button>
                 </div>
             </div>
         </header>
-        <section>
-            <div class="section-heading">Your Projects</div>
-            <article>
-                <div class="title">Super Cool Project</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, nobis sed commodi et facilis qui?</p>
-                <div class="article-nav">
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                </div>
-            </article>
-            <article>
-                <div class="title">Less Cool Project</div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum rerum quo esse dolor, consectetur molestiae deserunt. Et eum laborum quia quidem similique est vitae distinctio, asperiores, iure, magni modi enim.</p>
-                <div class="article-nav">
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                </div>
-            </article>
-            <article>
-                <spdivan class="title">Impossible App</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam.</p>
-                <div class="article-nav">
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                </div>
-            </article>
-            <article>
-                <div class="title">Easy Peasy App</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eveniet molestiae dolore rem nisi? Error, expedita. Voluptatum expedita, delectus, saepe, ut quidem corrupti unde beatae autem ad odio culpa rerum reprehenderit esse sit aliquam nesciunt.</p>
-                <div class="article-nav">
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                </div>
-            </article>
-            <article>
-                <div class="title">Ad Blocker</div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptas sapiente laborum nulla cum eum suscipit molestiae nihil repudiandae eligendi.</p>
-                <div class="article-nav">
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                </div>
-            </article>
-            <article>
-                <div class="title">Money Maker</div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint blanditiis necessitatibus ipsum delectus soluta ducimus nesciunt voluptatum magni. Minima eligendi dolor exercitationem officia blanditiis sunt quas quis ex, mollitia nobis impedit asperiores.</p>
-                <div class="article-nav">
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                </div>
-            </article>
-        </section>
-        <aside>
-            <div class="wrapper">
-                <div class="section-heading">Announcements</div>
-                <div class="announcements">
-                    <div>
-                        <div class="title">Site Maintenance</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, delectus vel? Suscipit, nostrum.</p>
+        <main class="main-content">
+            <section>
+                <div class="section-heading">Your Projects</div>
+                <article>
+                    <div class="title">Super Cool Project</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, nobis sed commodi et facilis qui?</p>
+                    <div class="actions">
+                        <span class="material-icons-outlined"> star_border </span>
+                        <span class="material-icons-outlined"> visibility </span>
+                        <span class="material-icons-outlined"> open_in_new </span>
                     </div>
-                    <div>
-                        <div class="title">Community Share Day</div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non exercitationem possimus alias. Aliquam, dolorem?</p>
+                </article>
+                <article>
+                    <div class="title">Less Cool Project</div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum rerum quo esse dolor, consectetur molestiae deserunt. Et eum laborum quia quidem similique est vitae distinctio, asperiores, iure, magni modi enim.</p>
+                    <div class="actions">
+                        <span class="material-icons-outlined"> star_border </span>
+                        <span class="material-icons-outlined"> visibility </span>
+                        <span class="material-icons-outlined"> open_in_new </span>
                     </div>
-                    <div>
-                        <div class="title">Updated Privacy Policy</div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates iure molestias fugit minima nemo neque cupiditate?</p>
+                </article>
+                <article>
+                    <div class="title">Impossible App</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam.</p>
+                    <div class="actions">
+                        <span class="material-icons-outlined"> star_border </span>
+                        <span class="material-icons-outlined"> visibility </span>
+                        <span class="material-icons-outlined"> open_in_new </span>
                     </div>
-                </div>
-            </div>
-            <div class="wrapper">
-                <div class="section-heading">Trending</div>
-                <div class="trending">
-                    <div class="thumbnail">
-                        <a href=""><img src="" alt=""></a>
+                </article>
+                <article>
+                    <div class="title">Easy Peasy App</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eveniet molestiae dolore rem nisi? Error, expedita. Voluptatum expedita, delectus, saepe, ut quidem corrupti unde beatae autem ad odio culpa rerum reprehenderit esse sit aliquam nesciunt.</p>
+                    <div class="actions">
+                        <span class="material-icons-outlined"> star_border </span>
+                        <span class="material-icons-outlined"> visibility </span>
+                        <span class="material-icons-outlined"> open_in_new </span>
+                    </div>
+                </article>
+                <article>
+                    <div class="title">Ad Blocker</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptas sapiente laborum nulla cum eum suscipit molestiae nihil repudiandae eligendi.</p>
+                    <div class="actions">
+                        <span class="material-icons-outlined"> star_border </span>
+                        <span class="material-icons-outlined"> visibility </span>
+                        <span class="material-icons-outlined"> open_in_new </span>
+                    </div>
+                </article>
+                <article>
+                    <div class="title">Money Maker</div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint blanditiis necessitatibus ipsum delectus soluta ducimus nesciunt voluptatum magni. Minima eligendi dolor exercitationem officia blanditiis sunt quas quis ex, mollitia nobis impedit asperiores.</p>
+                    <div class="actions">
+                        <span class="material-icons-outlined"> star_border </span>
+                        <span class="material-icons-outlined"> visibility </span>
+                        <span class="material-icons-outlined"> open_in_new </span>
+                    </div>
+                </article>
+            </section>
+            <aside>
+                <div class="wrapper">
+                    <div class="section-heading">Announcements</div>
+                    <div class="announcements">
                         <div>
-                            <div class="title">@tegan</div>
-                            <p>World Peace Builder</p>
+                            <div class="title">Site Maintenance</div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, delectus vel? Suscipit, nostrum.</p>
                         </div>
-                    </div>
-                    <div class="thumbnail">
-                        <a href=""><img src="" alt=""></a>
                         <div>
-                            <div class="title">@morgan</div>
-                            <p>Super Cool Project</p>
+                            <div class="title">Community Share Day</div>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non exercitationem possimus alias. Aliquam, dolorem?</p>
                         </div>
-                    </div>
-                    <div class="thumbnail">
-                        <a href=""><img src="" alt=""></a>
                         <div>
-                            <div class="title">@kendall</div>
-                            <p>Life Changing App</p>
-                        </div>
-                    </div>
-                    <div class="thumbnail">
-                        <a href=""><img src="" alt=""></a>
-                        <div>
-                            <div class="title">@alex</div>
-                            <p>No Traffic Maker</p>
+                            <div class="title">Updated Privacy Policy</div>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates iure molestias fugit minima nemo neque cupiditate?</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </aside>
+                <div class="wrapper">
+                    <div class="section-heading">Trending</div>
+                    <div class="trending">
+                        <div class="thumbnail">
+                            <a href=""><img src="img/2.png" alt=""></a>
+                            <div>
+                                <div class="title">@tegan</div>
+                                <p>World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="thumbnail">
+                            <a href=""><img src="img/3.png" alt=""></a>
+                            <div>
+                                <div class="title">@morgan</div>
+                                <p>Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="thumbnail">
+                            <a href=""><img src="img/4.png" alt=""></a>
+                            <div>
+                                <div class="title">@kendall</div>
+                                <p>Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="thumbnail">
+                            <a href=""><img src="img/avatar.png" alt=""></a>
+                            <div>
+                                <div class="title">@alex</div>
+                                <p>No Traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
     </div>
 </body>
 </html>
